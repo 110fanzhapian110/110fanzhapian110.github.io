@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>用户报表</title>
+    <link rel="stylesheet" href="../lib/layui/css/layui.css">
+    <link rel="stylesheet" href="../lib/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../lib/animate.css">
+</head>
+
+<body class="layui-layout-body">
+    <div class="layui-layout layui-layout-admin">
+        <div class="layui-header  animated bounceInLeft">
+            <div class="layui-logo">反欺诈系统管理</div>
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item">
+                    <a href="">
+                        <i class="fa fa-users" style="padding-right:10px"></i>在线人数
+                        <span>100</span>
+                    </a>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">
+                        <img src="http://t.cn/RCzsdCq" class="layui-nav-img">用户名称
+                    </a>
+                    <dl class="layui-nav-child">
+                        <dd>
+                            <a href="#">
+                                <i class="fa fa-user-circle" style="padding-right:10px"></i>用户资料</a>
+                        </dd>
+                        <dd>
+                            <a href="#">
+                                <i class="fa fa-wrench" style="padding-right:10px"></i>修改密码</a>
+                        </dd>
+                        <dd>
+                            <a href="#">
+                                <i class="fa fa-power-off" style="padding-right:10px"></i>退出系统</a>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+
+        <div class="layui-side layui-bg-black animated bounceInDown">
+            <div class="layui-side-scroll">
+                <ul class="layui-nav layui-nav-tree" lay-filter="test">
+                    <li class="layui-nav-item">
+                        <a href="#">
+                            <i class="fa fa-home" style="padding-right:10px"></i>首页
+                        </a>
+                    </li>
+                    <li class="layui-nav-item layui-nav-itemed">
+                        <a class="" href="javascript:;">
+                            <i class="fa fa-line-chart" style="padding-right:10px"></i>流量分析</a>
+                        <dl class="layui-nav-child">
+                            <dd>
+                                <a href="javascript:;">拦截报表</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">用户报表</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">网站分析</a>
+                            </dd>
+                            <dd>
+                                <a href="#">网站黑名单</a>
+                            </dd>
+                            <dd>
+                                <a href="#">网站白名单</a>
+                            </dd>
+                            <dd>
+                                <a href="#">AD账号黑名单</a>
+                            </dd>
+                            <dd>
+                                <a href="#">AD账号白名单</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href="#">
+                            <i class="fa fa-user-o" style="padding-right:10px"></i>用户管理</a>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href="#">
+                            <i class="fa fa-gears" style="padding-right:10px"></i>系统配置</a>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href="#">
+                            <i class="fa fa-file-text-o" style="padding-right:10px"></i>系统日志</a>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href="#">
+                            <i class="fa fa-shield" style="padding-right:10px"></i>权限管理</a>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href="#">
+                            <i class="fa fa-power-off" style="padding-right:10px"></i>安全退出</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="layui-body">
+            <div style="padding: 15px;">内容主体区域</div>
+        </div>
+
+        <div class="layui-footer  animated bounceInRight">
+            ©反欺诈
+        </div>
+    </div>
+    <script src="../lib/layui/layui.all.js"></script>
+</body>
+
+</html>
